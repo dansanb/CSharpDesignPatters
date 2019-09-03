@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{AFB49DE6-C151-4433-9CD6-98E114AE8840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Single_Responsability", "1_Single_Responsability\1_Single_Responsability.csproj", "{847C65B3-A07A-417A-AA59-7104BE4271FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Open_Close", "1_Single_Responsability\2_Open_Close\2_Open_Close.csproj", "{E0D25E9B-A5DB-46AB-8B7F-521ADD911E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847C65B3-A07A-417A-AA59-7104BE4271FB}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{847C65B3-A07A-417A-AA59-7104BE4271FB}.Debug|anycpu.Build.0 = Debug|anycpu
+		{847C65B3-A07A-417A-AA59-7104BE4271FB}.Release|anycpu.ActiveCfg = Release|anycpu
+		{847C65B3-A07A-417A-AA59-7104BE4271FB}.Release|anycpu.Build.0 = Release|anycpu
+		{E0D25E9B-A5DB-46AB-8B7F-521ADD911E55}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E0D25E9B-A5DB-46AB-8B7F-521ADD911E55}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E0D25E9B-A5DB-46AB-8B7F-521ADD911E55}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E0D25E9B-A5DB-46AB-8B7F-521ADD911E55}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{847C65B3-A07A-417A-AA59-7104BE4271FB} = {AFB49DE6-C151-4433-9CD6-98E114AE8840}
+		{E0D25E9B-A5DB-46AB-8B7F-521ADD911E55} = {AFB49DE6-C151-4433-9CD6-98E114AE8840}
+	EndGlobalSection
+EndGlobal
